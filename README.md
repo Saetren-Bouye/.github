@@ -1,68 +1,52 @@
-# Saetren Buøye
+# Saetren Buoye
 
-### Kompakt modulbasert system for autonom måling og logging av vassøyledata
+### Modulær bøyeløysing for presis overvaking av vassøyla
 
-**Saetren Buøye** er eit lavstraums, kompakt og fleksibelt system utvikla for presis og tilpassbar datainnsamling frå vassøyla.
-Systemet er retta mot forsking, miljøovervaking og fiskeoppdrett, der det er behov for stabile og repeterbare målingar over tid.
+**Saetren Bouye** er ei komplett måleplattform som blir sett ut på vatn for kontinuerleg innsamling av miljødata frå vassøyla.
+Systemet kombinerer sensorstyring, datalagring og trådlaus kommunikasjon i éi kompakt eining med batteri og solcellelading.
 
 ---
 
 ## Formål
 
-Systemet fungerer som ein autonom dataloggar som styrer ei vinsj- og sensorsamling.
-Buøya senkar sensoren til definert djupne, utfører målingar etter ein vald profil, og sender data automatisk over 4G eller Wi-Fi.
-Etter fullført syklus går systemet tilbake i dvalemodus for å redusere straumforbruk.
+Buøya registrerer og loggar vassøyledata ved hjelp av senking av sensorar.
+Måleintervall og djupneprofilar kan justerast direkte frå webgrensesnittet.
+Systemet gjennomfører målesyklusen, loggar resultata og går deretter i kvilemodus for å redusere energibruk mellom kvar runde.
 
 ---
 
 ## Fleksibilitet og konfigurasjon
 
-Systemet gir brukaren høg grad av kontroll over måleoppsettet:
+Systemet støttar eit breitt spekter av innstillingar og målestrategiar:
 
-* Fritt val av måledjupne, intervall og sensortypar
-* Støtte for både standard- og kundetilpassa sensorprofilar
-* Justerbar fordelingsprofil for målepunkt (jamn, tett i toppen, tett i botnen)
-* Konfigurasjon via webgrensesnitt eller MQTT
-* Støtte for både faste målepunkt og dynamiske mål basert på sensorverdiar
-
-Dette gjer systemet eigna både for enkle dataloggarar og komplekse forskingsoppsett.
+* Frie val av djupner, målehyppigheit og sensortypar
+* Profilstyring for jamn eller målretta djupnefordeling
+* Webgrensesnitt for justering av parametere og overvaking av status
+* Automatisk datalagring og trygg - kryptert overføring ved samband
 
 ---
 
 ## Eigenskapar
 
-* Lågstraumsdesign med dvalemodus mellom målingar
-* Lokal lagring av data med trygg buffer ved kommunikasjonsbrot
-* Automatisk opplasting og synkronisering via MQTT over 4G eller Wi-Fi
-* Integrert failsafe og redundans ved overføring
-* Kompakt og robust konstruksjon tilpassa feltbruk
-* Skalerbar arkitektur med støtte for fleire sensornoder eller integrasjon av fleire bøyestasjonar i same nettverk
+* Energieffektiv drift med solcellelading
+* Solid konstruksjon for langtidsbruk i ferskvatn og sjø
+* Skalerbart system – støttar fleire sensornoder eller bøyestasjonar
+* Web grensesnitt for data analyse samt støtte for lokal lagring og API-basert datatilgang
 
 ---
 
 ## Datatilgang og integrasjon
 
-Alle måledata blir logga i strukturert format og kan hentast på fleire måtar:
+Data kan hentast ut og analyserast gjennom:
 
-* Direkte visualisering gjennom tilknytta webgrensesnitt
-* Automatisk opplasting til fjernteneste for visualisering og analyse
-* Nedlasting eller API-tilgang for integrasjon i eigne verktøy
+* Webgrensesnitt med grafisk visualisering
+* API for integrasjon med eigne verktøy og system
+* Eksport for vidare analyse
 
 ---
 
 ## Bruksområde
 
-Saetren Buøye er utvikla for bruk i:
-
-* **Forskingsprosjekt** innan marin og limnologisk datainnsamling
-* **Fiskeoppdrett**, for overvaking av oksygennivå, temperatur, salthald og anna relevant vasskvalitet
-
-Systemet eignar seg særleg godt i situasjonar der kontinuerleg, presis og energieffektiv overvaking er avgjerande.
-
----
-
-## Teknologisk grunnlag
-
-Systemet er basert på ESP32-plattformen og byggjer på modulær programvare med open arkitektur.
-Det nyttar standardiserte grensesnitt (Modbus, MQTT, PPP) og er utvikla med fokus på robustheit, modularitet og energieffektivitet.
-Arkitekturen er designa for å kunne utvidast trinnvis, slik at både fleire sensornoder og fleire buøye-stasjonar kan inngå i same distribuerte system.
+**Saetren Bouye** er utvikla for miljøkartlegging, forsking og oppdrettsnæring,
+der presis måling av temperatur, oksygen, salthald og andre parameter er avgjerande.
+Systemet gir eit fleksibelt og påliteleg grunnlag for langsiktig overvaking av miljøtilhøve i vassøyla.
