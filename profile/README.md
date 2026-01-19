@@ -1,15 +1,15 @@
-# Saetren Buoye
+# Saetren FjordNode
 
 ### Modulær bøyeløysing for presis overvaking av vassøyla
 
-**Saetren Bouye** er ei komplett måleplattform som blir sett ut på vatn for kontinuerleg innsamling av miljødata frå vassøyla.
+**Saetren FjordNode** er ei komplett måleplattform som blir sett ut på vatn for kontinuerleg innsamling av miljødata frå vassøyla.
 Systemet kombinerer sensorstyring, datalagring og trådlaus kommunikasjon i éi kompakt eining med batteri og solcellelading.
 
 ---
 
 ## Formål
 
-Buøya registrerer og loggar vassøyledata ved hjelp av senking av sensorar.
+FjordNoda registrerer og loggar vassøyledata ved hjelp av senking av sensorar.
 Måleintervall og djupneprofilar kan justerast direkte frå webgrensesnittet.
 Systemet gjennomfører målesyklusen, loggar resultata og går deretter i kvilemodus for å redusere energibruk mellom kvar runde.
 
