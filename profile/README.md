@@ -1,9 +1,9 @@
-# Saetren FjordNode
+# Sætren FjordNode
 
 ### Modulær bøyeløysing for presis overvaking av vassøyla
 
 **Saetren FjordNode** er ei komplett måleplattform som blir sett ut på vatn for kontinuerleg innsamling av miljødata frå vassøyla.
-Systemet kombinerer sensorstyring, datalagring og trådlaus kommunikasjon i éi kompakt eining med batteri og solcellelading.
+Systemet kombinerer sensorstyring, skylagring og trådlaus kommunikasjon i éi kompakt eining med batteri og solcellelading.
 
 ---
 
@@ -22,7 +22,8 @@ Systemet støttar eit breitt spekter av innstillingar og målestrategiar:
 * Frie val av djupner, målehyppigheit og sensortypar
 * Profilstyring for jamn eller målretta djupnefordeling
 * Webgrensesnitt for justering av parametere og overvaking av status
-* Automatisk datalagring og trygg - kryptert overføring ved samband
+* Automatisk datalagring og trygg - kryptert overføring
+* API for integrasjon med eigene systemer
 
 ---
 
@@ -41,7 +42,7 @@ Data kan hentast ut og analyserast gjennom:
 
 * Webgrensesnitt med grafisk visualisering
 * API for integrasjon med eigne verktøy og system
-* Eksport for vidare analyse
+* Eksport for vidare analyse i format som .xls, .xlsx, csv etc.
 
 ---
 
